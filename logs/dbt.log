@@ -1,0 +1,179 @@
+[0m19:25:15.037993 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020029EDC9B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020029B597F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020023BC76E0>]}
+
+
+============================== 19:25:15.042506 | 0f35c14e-0b6a-47dc-851a-1cd6198790f1 ==============================
+[0m19:25:15.042506 [info ] [MainThread]: Running with dbt=1.9.1
+[0m19:25:15.042506 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'debug': 'False', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\Zzaka\\.dbt', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'introspect': 'True', 'invocation_command': 'dbt init', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m19:25:33.714942 [debug] [MainThread]: Starter project path: C:\Users\Zzaka\PycharmProjects\Snowflake\.venv\Lib\site-packages\dbt\include\starter_project
+[0m19:25:33.726477 [info ] [MainThread]: 
+Your new dbt project "data_pipeline" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m19:25:33.726477 [info ] [MainThread]: Setting up your profile.
+[0m19:25:33.729489 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No adapters available. Learn how to install an adapter by going to https://docs.getdbt.com/docs/connect-adapters#install-using-the-cli
+[0m19:25:33.729489 [debug] [MainThread]: Command `dbt init` failed at 19:25:33.729489 after 18.86 seconds
+[0m19:25:33.730488 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020029CEEB40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020029B82AE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020029F11460>]}
+[0m19:25:33.730488 [debug] [MainThread]: Flushing usage events
+[0m19:25:34.151158 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m19:29:56.734936 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016B3E542900>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016B3E542B70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016B3E543E60>]}
+
+
+============================== 19:29:56.738942 | ee065b0c-673d-4aa2-9c26-edb274fbff7f ==============================
+[0m19:29:56.738942 [info ] [MainThread]: Running with dbt=1.9.1
+[0m19:29:56.738942 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\Zzaka\\.dbt', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt init', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m19:30:08.759393 [debug] [MainThread]: Starter project path: C:\Users\Zzaka\PycharmProjects\Snowflake\.venv\Lib\site-packages\dbt\include\starter_project
+[0m19:30:08.770419 [info ] [MainThread]: 
+Your new dbt project "data_pipeline" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m19:30:08.771420 [info ] [MainThread]: Setting up your profile.
+[0m19:30:08.773429 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No adapters available. Learn how to install an adapter by going to https://docs.getdbt.com/docs/connect-adapters#install-using-the-cli
+[0m19:30:08.774437 [debug] [MainThread]: Command `dbt init` failed at 19:30:08.774437 after 12.23 seconds
+[0m19:30:08.775442 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016B3E9EFBC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016B3EA801D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016B3E605EE0>]}
+[0m19:30:08.775442 [debug] [MainThread]: Flushing usage events
+[0m19:30:09.193448 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m19:35:56.125465 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021E32FC5610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021E356250A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021E35A5B3B0>]}
+
+
+============================== 19:35:56.130463 | 95a61d38-b2dd-4d22-916b-bc77ee8a75a0 ==============================
+[0m19:35:56.130463 [info ] [MainThread]: Running with dbt=1.9.1
+[0m19:35:56.130970 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\Zzaka\\.dbt', 'log_path': 'logs', 'debug': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'invocation_command': 'dbt debug', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m19:35:56.145029 [info ] [MainThread]: dbt version: 1.9.1
+[0m19:35:56.146030 [info ] [MainThread]: python version: 3.12.8
+[0m19:35:56.146030 [info ] [MainThread]: python path: C:\Users\Zzaka\PycharmProjects\Snowflake\.venv\Scripts\python.exe
+[0m19:35:56.147030 [info ] [MainThread]: os info: Windows-11-10.0.26100-SP0
+[0m19:35:56.152075 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.bigquery'
+[0m19:35:56.153083 [info ] [MainThread]: Using profiles dir at C:\Users\Zzaka\.dbt
+[0m19:35:56.153083 [info ] [MainThread]: Using profiles.yml file at C:\Users\Zzaka\.dbt\profiles.yml
+[0m19:35:56.153083 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\Zzaka\PycharmProjects\Snowflake\dbt_project.yml
+[0m19:35:56.154082 [info ] [MainThread]: Configuration:
+[0m19:35:56.154082 [info ] [MainThread]:   profiles.yml file [[31mERROR invalid[0m]
+[0m19:35:56.154082 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m19:35:56.155088 [info ] [MainThread]: Required dependencies:
+[0m19:35:56.155088 [debug] [MainThread]: Executing "git --help"
+[0m19:35:56.177201 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m19:35:56.178202 [debug] [MainThread]: STDERR: "b''"
+[0m19:35:56.178202 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m19:35:56.179201 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m19:35:56.179201 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m19:35:56.179201 [info ] [MainThread]: Could not load dbt_project.yml
+Profile loading failed for the following reason:
+Runtime Error
+  Credentials in profile "snowflake", target "dev" invalid: Runtime Error
+    Could not find adapter type bigquery!
+
+
+[0m19:35:56.179201 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\Zzaka\PycharmProjects\Snowflake\dbt_project.yml> not found
+
+[0m19:35:56.180708 [debug] [MainThread]: Command `dbt debug` failed at 19:35:56.180708 after 0.24 seconds
+[0m19:35:56.180708 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021E3575B500>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021E358E8770>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021E358E9970>]}
+[0m19:35:56.180708 [debug] [MainThread]: Flushing usage events
+[0m19:35:56.646238 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m19:37:11.212674 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000202048D74A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020205087560>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020205020C80>]}
+
+
+============================== 19:37:11.216685 | 55f3cbd8-b079-4b0d-938c-0c70738ce990 ==============================
+[0m19:37:11.216685 [info ] [MainThread]: Running with dbt=1.9.1
+[0m19:37:11.217685 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Zzaka\\PycharmProjects\\Snowflake', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt debug', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m19:37:11.232742 [info ] [MainThread]: dbt version: 1.9.1
+[0m19:37:11.232742 [info ] [MainThread]: python version: 3.12.8
+[0m19:37:11.233750 [info ] [MainThread]: python path: C:\Users\Zzaka\PycharmProjects\Snowflake\.venv\Scripts\python.exe
+[0m19:37:11.233750 [info ] [MainThread]: os info: Windows-11-10.0.26100-SP0
+[0m19:37:11.239756 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.snowflake'
+[0m19:37:11.240261 [info ] [MainThread]: Using profiles dir at C:\Users\Zzaka\PycharmProjects\Snowflake
+[0m19:37:11.240261 [info ] [MainThread]: Using profiles.yml file at C:\Users\Zzaka\PycharmProjects\Snowflake\profiles.yml
+[0m19:37:11.241266 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\Zzaka\PycharmProjects\Snowflake\dbt_project.yml
+[0m19:37:11.241266 [info ] [MainThread]: Configuration:
+[0m19:37:11.241266 [info ] [MainThread]:   profiles.yml file [[31mERROR invalid[0m]
+[0m19:37:11.242267 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m19:37:11.242772 [info ] [MainThread]: Required dependencies:
+[0m19:37:11.242772 [debug] [MainThread]: Executing "git --help"
+[0m19:37:11.266046 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m19:37:11.266046 [debug] [MainThread]: STDERR: "b''"
+[0m19:37:11.267045 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m19:37:11.267045 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m19:37:11.267045 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m19:37:11.268048 [info ] [MainThread]: Could not load dbt_project.yml
+Profile loading failed for the following reason:
+Runtime Error
+  Credentials in profile "data_pipeline", target "dev" invalid: Runtime Error
+    Could not find adapter type snowflake!
+
+
+[0m19:37:11.268048 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\Zzaka\PycharmProjects\Snowflake\dbt_project.yml> not found
+
+[0m19:37:11.269047 [debug] [MainThread]: Command `dbt debug` failed at 19:37:11.269047 after 0.20 seconds
+[0m19:37:11.269047 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000202054139B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000202054A0200>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020204FD01A0>]}
+[0m19:37:11.270045 [debug] [MainThread]: Flushing usage events
+[0m19:37:11.699967 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m19:53:21.353653 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023819087230>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002381BF13CE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023819CCF800>]}
+
+
+============================== 19:53:21.360690 | 32c24e3a-beb0-4e66-90d0-bd5986d6498d ==============================
+[0m19:53:21.360690 [info ] [MainThread]: Running with dbt=1.9.1
+[0m19:53:21.360690 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Zzaka\\.dbt', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'warn_error': 'None', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'target_path': 'None', 'invocation_command': 'dbt debug', 'send_anonymous_usage_stats': 'True'}
+[0m19:53:21.385717 [info ] [MainThread]: dbt version: 1.9.1
+[0m19:53:21.387220 [info ] [MainThread]: python version: 3.12.8
+[0m19:53:21.387220 [info ] [MainThread]: python path: C:\Users\Zzaka\PycharmProjects\Snowflake\.venv\Scripts\python.exe
+[0m19:53:21.388226 [info ] [MainThread]: os info: Windows-11-10.0.26100-SP0
+[0m19:53:21.393229 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.bigquery'
+[0m19:53:21.393229 [info ] [MainThread]: Using profiles dir at C:\Users\Zzaka\.dbt
+[0m19:53:21.394231 [info ] [MainThread]: Using profiles.yml file at C:\Users\Zzaka\.dbt\profiles.yml
+[0m19:53:21.394231 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\Zzaka\PycharmProjects\Snowflake\dbt_project.yml
+[0m19:53:21.394231 [info ] [MainThread]: Configuration:
+[0m19:53:21.395230 [info ] [MainThread]:   profiles.yml file [[31mERROR invalid[0m]
+[0m19:53:21.395230 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m19:53:21.395230 [info ] [MainThread]: Required dependencies:
+[0m19:53:21.396229 [debug] [MainThread]: Executing "git --help"
+[0m19:53:21.416262 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m19:53:21.417261 [debug] [MainThread]: STDERR: "b''"
+[0m19:53:21.417764 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m19:53:21.417764 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m19:53:21.418772 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m19:53:21.418772 [info ] [MainThread]: Could not load dbt_project.yml
+Profile loading failed for the following reason:
+Runtime Error
+  Credentials in profile "snowflake", target "dev" invalid: Runtime Error
+    Could not find adapter type bigquery!
+
+
+[0m19:53:21.418772 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\Zzaka\PycharmProjects\Snowflake\dbt_project.yml> not found
+
+[0m19:53:21.419778 [debug] [MainThread]: Command `dbt debug` failed at 19:53:21.419778 after 0.27 seconds
+[0m19:53:21.420779 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002381C64E3C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002381C2A9670>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002381C3924E0>]}
+[0m19:53:21.420779 [debug] [MainThread]: Flushing usage events
+[0m19:53:22.100032 [debug] [MainThread]: An error was encountered while trying to flush usage events
