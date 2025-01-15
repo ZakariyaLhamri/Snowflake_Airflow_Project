@@ -3,12 +3,12 @@ dbt_pipeline:
   outputs:
     dev:
       type: snowflake
-      account: jhahdzl-bf56635
-      user: PROJECT24DBT
-      password: L.zak@007
-      role: dbt_role
-      database: dbt_db
-      warehouse: dbt_wh
-      schema: dbt_schema
+      account: "account_ID"
+      user: "your user name"
+      password: "your password"
+      role: "role"
+      database: "name of your database"
+      warehouse: "name of your datawarehouse
+      schema: "name of your schema"
       threads: 10
       client_session_keep_alive: False
