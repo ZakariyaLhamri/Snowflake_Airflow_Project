@@ -6,9 +6,9 @@ dbt_pipeline:
       account: "account_ID"
       user: "your user name"
       password: "your password"
-      role: "role"
+      role: "role_name"
       database: "name of your database"
-      warehouse: "name of your datawarehouse
+      warehouse: "name of your warehouse"
       schema: "name of your schema"
       threads: 10
       client_session_keep_alive: False
